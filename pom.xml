@@ -15,7 +15,7 @@
 
 	<groupId>org.jboss.quickstarts.fuse</groupId>
 	<artifactId>sap-quickstarts-parent</artifactId>
-	<version>7.0.0.fuse-000191-redhat-1</version>
+	<version>7.1.0.fuse-710023-redhat-00001</version>
 	<packaging>pom</packaging>
 
 	<name>SAP Quickstarts Parent</name>
@@ -36,30 +36,33 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<!-- dependency versions -->
+		<!-- 
 		<camel-sap-version>7.0.0.fuse-000211-redhat-1</camel-sap-version>
-		<camel-version>2.21.0.fuse-000077-redhat-1</camel-version>
-		<slf4j-api-version>1.7.25</slf4j-api-version>
-		<slf4j-version>1.7.25</slf4j-version>
+		 -->
+		<camel-sap-version>7.1.0-SNAPSHOT</camel-sap-version>
+		<camel-version>2.21.0.fuse-710018-redhat-00001</camel-version>
+		<slf4j-api-version>1.7.22</slf4j-api-version>
+		<slf4j-version>1.7.22</slf4j-version>
 		<log4j-version>1.2.17</log4j-version>
 		<sapjco3-version>3.0.11</sapjco3-version>
 		<sapidoc3-version>3.0.10</sapidoc3-version>
 		<!-- plugin versions -->
 		<maven-compiler-plugin-version>3.7.0</maven-compiler-plugin-version>
 		<maven-resources-plugin-version>3.0.2</maven-resources-plugin-version>
-		<camel-maven-plugin-version>2.21.0.fuse-000077-redhat-1</camel-maven-plugin-version>
+		<camel-maven-plugin-version>2.21.0.fuse-710018-redhat-00001</camel-maven-plugin-version>
 		<maven-bundle-plugin-version>3.3.0</maven-bundle-plugin-version>
 		<build-helper-maven-plugin-version>3.0.0</build-helper-maven-plugin-version>
 		<fabric8-maven-plugin-version>3.5.26</fabric8-maven-plugin-version>
 
 		<!-- SAP Instance Configuration Configuration Parameters -->
 		<!-- *** Please enter the connection property values for your SAP Instance *** -->
-		<jco.client.ashost>example.com</jco.client.ashost>
+		<jco.client.ashost>fuse-sap.mw.lab.eng.bos.redhat.com</jco.client.ashost>
 		<jco.client.sysnr>00</jco.client.sysnr>
-		<jco.client.client>000</jco.client.client>
-		<jco.client.gwhost>example.com</jco.client.gwhost>
+		<jco.client.client>200</jco.client.client>
+		<jco.client.gwhost>fuse-sap.mw.lab.eng.bos.redhat.com</jco.client.gwhost>
 		<jco.client.gwserv>3300</jco.client.gwserv>
-		<jco.client.user>username</jco.client.user>
-		<jco.client.passwd>password</jco.client.passwd>
+		<jco.client.user>tester</jco.client.user>
+		<jco.client.passwd>JBossFuse1</jco.client.passwd>
 		<jco.client.lang>en</jco.client.lang>
 		
 	</properties>
